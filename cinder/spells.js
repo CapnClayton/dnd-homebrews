@@ -30,6 +30,23 @@ SpellsList["scars of the delver"] = {
     descriptionFull : "A stream of gold dust emanates from your external scars in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in mind-ensnaring gold dust for the spell's duration or until a creature uses its action to scrape or wash the gold dust off itself or another creature. A creature covered in the gold dust takes 2d4 psychic damage at start of each of its turns."  + "\n   " + AtHigherLevels + "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d4 for each slot level above 1st."
 };
 
+SpellsList["shatter the mask"] = {
+    name : "Shatter the Mask",
+    nameAlt : "Shatter the Mask",
+    classes : ["cleric"],   
+    source : ["HB", 1],
+    level : 3,
+    school : "Ench",
+    time : "1 a",
+    range : "60ft",
+    components : "S,M",
+    compMaterial : "Golden thread",
+    duration : "1 round",
+    save : "Cha",
+    description : "20-ft. rad Choose creatures 6d6 + 1d6/SL Radiant dmg; save halves; secondary effect on fail.",
+    descriptionFull : "A golden spool of thread attaches to your fingers and you; invoking the lament of experiences, yours or with those whom you have delved; unleash a wave of sorrow that lashes through the minds of creatures. Pain that the creatures have suppressed rise to the surface and manifest as translucent masks which crack and shatter in a radiant light as you tug on the golden threads.\n" + "Each creature of your choice in a 20-foot-radius sphere within range must make a Charisma saving throw, as the spell surfaces sorrowful memories and assaults their inner sense of self. On a failure, they take 5d6 radiant damage and suffer one of the following effects (your choice when you cast the spell - only one effect may be selected per casting):\n" + "\t*Unmasking Light* – The creature cannot benefit from invisibility, illusions, or shapechanging until the end of your next turn. Any such effects already active are suppressed (not ended) for the duration.\n" + "\t*Fragmented Will* – The creature has disadvantage on its next saving throw until the end of your next turn.\n" + "\t*Fractured Resolve* – The creature has disadvantage on its next attack roll until the end of your next turn.\n" + "\t*Heavy Heart* – The creature’s speed is reduced by half until the end of your next turn.\n" + "On a successful save, the creature takes half damage and suffers no additional effects\n" + "\t*At Higher Levels:* When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+};
+
 // PHB 2024 Spells (Not necessary on later versions of MPMB)
 SpellsList["spirit guardians"].description = "Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish." + "\n\n" + "When you cast this spell, you can designate creatures to be unaffected by it. Any other creature’s Speed is halved in the Emanation, and whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes 3d8 Radiant damage (if you are good or neutral) or 3d8 Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn."
 
