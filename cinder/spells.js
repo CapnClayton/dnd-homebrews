@@ -1,3 +1,18 @@
+SpellsList["resonating heart"] = {
+    name : "Resonating Heart",
+    classes : ["sorcerer"],
+    source : ["HB", 1],
+    level : 2,
+    school : "Div",
+    time : "1 a",
+    range : "Self",
+    components : "V,S,M",
+    compMaterial : "Gem dust",
+    duration : "Conc, 1 h",
+    description : "Sense distance+direction to nearest macadam within 1 mi; know direction if moving; can target specific macadam seen within 30 ft; touch other sources to exclude them from effect; blocked by deepstone, magical wards, or similar; +1 slot: range x10 per slot above 2nd (3rd: 10 mi, 4th: 100 mi, etc.)",
+    descriptionFull : "You sense the distance and direction to the nearest source of macadam, commonly called redstone, if there is a source within one mile of your location. If the macadam is in motion, you know the direction of its movement.\n   The spell can locate a specific macadam object known to you if you have seen it up close—within 30 feet—at least once. If the spell is not used to locate a specific macadam object as it is cast, then other sources of macadam may be excluded from this spell's effect for its duration by making physical contact with that source.\n   The spell can penetrate barriers but is blocked by deepstone, magical wards, and similar effects which impede general divinative properties.\n   " + AtHigherLevels + "When you cast this spell using a spell slot of 3rd level or higher, the distance at which the macadam can be sensed increases tenfold for each slot level above 2nd. At 3rd level the source must be within 10 miles, at 4th level 100 miles, etc."
+};
+
 SpellsList["divine knife"] = {
     name : "Divine Knife",
     classes : ["sorcerer"],   
