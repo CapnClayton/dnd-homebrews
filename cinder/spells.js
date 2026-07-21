@@ -94,3 +94,19 @@ SpellsList["sorcerous burst"] = {
 	ritual : false,
 	psionic : false,
 };
+
+// Forgotten Realms - Heroes of Faerun
+SpellsList["backlash"] = { 
+    name : "Backlash",
+    classes : ["bard", "sorcerer", "warlock", "wizard"],
+    source : [["HB", 0]],
+    level : 4,
+    school : "Abju",
+    time : "1 rea",
+    timeFull : "1 reaction, which you take in response to taking damage",
+    range : "60 ft",
+    components : "V",
+    duration : "Instantaneous",
+    description : "Reduce damage taken by 4d6+spell mod; creature that damaged you in range: Con save or 4d6 Force dmg, half on success; +1d6 both per slot above 4",
+    descriptionFull : "You ward yourself against destructive energy, reducing the damage taken by 4d6 plus your spellcasting ability modifier.\n   If the triggering damage was from a creature within range, you can force the creature to make a Constitution saving throw. The creature takes 4d6 Force damage on a failed save or half as much damage on a successful one.\n   " + AtHigherLevels + "The damage reduction and Force damage from this spell both increase by 1d6 for every spell slot level above 4."
+};
