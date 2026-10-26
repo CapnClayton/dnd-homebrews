@@ -2,7 +2,7 @@ var iFileName = "weapons.js";
 RequiredSheetVersion(12.999);
 
 SourceList["CT:EI"] = {
-	name : "ClaytonTurner: Ethereal Incursion",
+	name : "CT: Ethereal Incursion",
 	abbreviation : "CT:EI",
 	date : "2022/08/07"
 }
